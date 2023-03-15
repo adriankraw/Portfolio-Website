@@ -1,0 +1,16 @@
+@import './base.css';
+
+#app {
+  max-width: 80vw;
+  max-height: 95vh;
+  overflow: hidden;
+  overflow-y: scroll;
+  padding: 2rem;
+  background-color: rgba(35, 35, 35, 0.778);
+  font-weight: normal;
+  border-radius: 15px;
+  right: 0cm;
+}
+#app::-webkit-scrollbar{
+  display: none;
+}
