@@ -14,8 +14,23 @@
 </template>
 
 <style scoped>
-#image {
-  height: 40vh;
-  width: 40vw;
+#image{
+  display: flex;
+}
+.details{
+  height: 2em;
+  transition: height 1s;
+  transition-timing-function: ease;
+
+  position: absolute;
+  display: block;
+  bottom: 0;
+  width: 100%;
+  z-index: 2;
+  background-color: rgba(225, 225, 225, 0.76);
+  color: black;
+
+  display: flex;
+  justify-content: center;
 }
 </style>

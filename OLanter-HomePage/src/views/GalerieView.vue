@@ -8,7 +8,7 @@ import Item from "../components/WelcomeItem.vue"
       <li v-for="image in imageList">
         <Item>
           <template #icon>
-            <img id="singleImage" :src= image.icon alt="asd" /> </template>
+            <img id="singleImage" :src= image.icon alt="asd" /></template>
           <template #heading>{{ image.heading }}</template>
         </Item>
       </li>
@@ -26,41 +26,39 @@ export default {
       imageList: [
         { icon: "../src/assets/images/Tree_120420.jpg", heading: "Tree" }, 
         { icon: "../src/assets/images/cat_-King_2.jpg", heading: "cat King"},
-        { icon: "../src/assets/images/cat_-King_2.jpg", heading: "cat King"},
-        { icon: "../src/assets/images/cat_-King_2.jpg", heading: "cat King"},
-        { icon: "../src/assets/images/cat_-King_2.jpg", heading: "cat King"},
-        { icon: "../src/assets/images/cat_-King_2.jpg", heading: "cat King"},
-        { icon: "../src/assets/images/cat_-King_2.jpg", heading: "cat King"},
+        { icon: "../src/assets/images/The_Forest.jpg", heading: "cat King"},
+        { icon: "../src/assets/images/Dragon—tree.png", heading: "cat King"},
+        { icon: "../src/assets/images/Elf-portrait.jpg", heading: "cat King"},
+        { icon: "../src/assets/images/Forest-Girl-27-12.jpg", heading: "cat King"},
       ]
     };
   }
 }
 </script>
 
-<style scoped>
-#Galerie{
-  width: 80vw;
-}
-template {
-  max-height: 90vh;
-}
+<style>
 #Galerie ul{
   padding: 0;
   list-style-type: none;
   display: grid;
-  grid-auto-flow: column;
-  align-items: start;
-  justify-content: start;
+  grid-template-columns: repeat(3, 1fr);
 }
 #Galerie ul li{
-  margin-bottom: 1em;
-  background-color: grey;
   margin: 5px;
   border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  overflow: hidden;
+}
+#Galerie ul li:hover .details{
+  height: 45%;
 }
 #singleImage {
-  max-width: 400px;
-  max-height: 400px;
+  width: 24vw;
+  height: 400px;
+  object-fit: cover;
+  overflow: none;
 }
 </style>
 
