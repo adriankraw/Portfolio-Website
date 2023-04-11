@@ -1,7 +1,7 @@
 <template>
     <nav id="footer">
       <RouterLink to="/">Home</RouterLink>
-      <RouterLink to="/art">Art</RouterLink>
+      <RouterLink to="/work">Work</RouterLink>
       <RouterLink to="/about">About</RouterLink>
     </nav>  
 </template>
