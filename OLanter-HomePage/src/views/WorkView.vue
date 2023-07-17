@@ -1,12 +1,10 @@
 <script setup>
 import GalerieView from '../components/GalerieView.vue';
+import DGalerieView from '../components/3DGalerieView.vue';
 </script>
 
 <template>
-    <!-- Programming -->
     <GalerieView />
-    <!-- Modelling -->
-    <GalerieView />
-    <!-- Drawing -->
-    <GalerieView /> 
+    <br>
+    <DGalerieView />
 </template>

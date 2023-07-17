@@ -1,0 +1,12 @@
+import { _ as l, o as i, c, a as t, t as _, p as u, b as m, F as p, r as g, d as h, e as v } from "./index-3e02cb96.js"; 
+const x = s => (u("data-v-bc0096d4"), 
+s = s(), m(), s), 
+f = { id: "template" }, 
+L = { class: "details" }, 
+I = x(() => t("br", null, null, -1)), 
+y = { class: "item" }, S = { id: "image" }, E = ["src"], 
+w = { __name: "ImageItem", props: { header: { type: String, default: "Header" }, 
+icon: { type: String, default: "" }, textDescription: { type: String, default: "empty text" } }, 
+setup(s) { const e = s; return (a, n) => (i(), c("div", f, [t("div", L, [t("h3", null, _(e.header), 1), I, 
+t("div", null, _(e.textDescription), 1)]), t("div", y, [t("i", S, [t("img", { src: e.icon, alt: "" }, null, 8, E)])])])) } }, 
+B = l(w, [["__scopeId", "data-v-bc0096d4"]]), D = [{ icon: "../src/assets/images/Tree_120420.jpg", heading: "Tree", text: "1" }, { icon: "../src/assets/images/cat_-King_2.jpg", heading: "cat King", text: "2" }, { icon: "../src/assets/images/The_Forest.jpg", heading: "cat King", text: "3" }, { icon: "../src/assets/images/Dragon—tree.png", heading: "cat King", text: "4" }, { icon: "../src/assets/images/Elf-portrait.jpg", heading: "cat King", text: "5" }, { icon: "../src/assets/images/Forest-Girl-27-12.jpg", heading: "cat King", text: "6" }, { icon: "../src/assets/images/shader.gif", heading: "GLSL Shader", text: "This is the first shader i have written, using GLSL" }]; const b = { id: "Galerie" }, j = t("a", null, [t("h1", { id: "ListBoxHeader" }, "Art")], -1), G = { class: "ListBox", id: "ListContainer" }, K = { name: "Art", components: {}, data() { return { imageList: D } }, mounted() { const s = document.getElementById("Galerie"); let e = 0; const a = function (o) { document.addEventListener("mousemove", n), document.addEventListener("mouseup", r), e = o.clientX, console.log("down " + e) }, n = function (o) { var d = o.clientX - e; e = o.clientX, s.scrollLeft += d, console.log(d) }, r = function (o) { document.removeEventListener("mousemove", n), document.removeEventListener("mouseup", r), console.log("Up") }; document.addEventListener("mousedown", a) } }, H = Object.assign(K, { setup(s) { return (e, a) => (i(), c("div", b, [j, t("div", G, [t("ul", null, [(i(!0), c(p, null, g(e.imageList, n => (i(), c("li", null, [h(B, { icon: n.icon, textDescription: n.text, header: n.heading }, null, 8, ["icon", "textDescription", "header"])]))), 256))])])])) } }), k = { __name: "WorkView", setup(s) { return (e, a) => (i(), v(H)) } }; export { k as default };

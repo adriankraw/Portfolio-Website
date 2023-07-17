@@ -5,7 +5,7 @@ import ImageItem from "./ImageItem.vue"
 <template>
   <div id="Galerie">
     <a>
-      <h1 id="ListBoxHeader">Art</h1>
+      <h1 id="ListBoxHeader">3D</h1>
     </a>
     <div class="ListBox" id="ListContainer">
         <ul>
@@ -33,6 +33,7 @@ export default {
     };
   },
   mounted() {
+
   }
   }
   </script>

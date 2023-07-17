@@ -1,16 +1,15 @@
 <script setup>
 import TheWelcome from "../components/TheWelcome.vue";
+import WorkView from "./WorkView.vue";
 </script>
 
 <template>
-  <main>
     <TheWelcome id="theWelcome"/>
-  </main>
+  <br>
+    <WorkView />
 </template>
-
-<style scoped>
-
-main{
-  width: 700px;
+<style>
+#theWelcome{
+  margin-top: 5vh;
 }
 </style>

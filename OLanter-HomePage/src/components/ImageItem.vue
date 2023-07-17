@@ -34,7 +34,7 @@ const props = defineProps({
   justify-content: center;
   overflow: hidden;
   max-width: 34vw;
-  height: 400px;
+  height: 30vh;
   transition: height 2s, width 2s;
   transition-timing-function: ease;
 }
