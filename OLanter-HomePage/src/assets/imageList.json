@@ -23,15 +23,5 @@
         "icon": "../src/assets/images/Elf-portrait.jpg",
         "heading": "cat King",
         "text": "5"
-    },
-    {
-        "icon": "../src/assets/images/Forest-Girl-27-12.jpg",
-        "heading": "cat King",
-        "text": "6"
-    },
-    {
-        "icon": "../src/assets/images/shader.gif",
-        "heading": "GLSL Shader",
-        "text": "This is the first shader i have written, using GLSL"
     }
 ]

@@ -11,10 +11,17 @@ defineProps({
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
     <h3> Developer / Programmer </h3>
+    <br>
+    <a class="Logo" href="https://www.artstation.com/olantern">Artstation</a>
   </div>
 </template>
 
 <style scoped>
+.Logo{
+  font-size: large;
+  text-decoration: underline;
+}
+
 h1 {
   font-weight: 500;
   font-size: 2.6rem;

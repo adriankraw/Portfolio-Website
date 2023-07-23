@@ -1,0 +1,22 @@
+[
+    {
+        "icon": "../src/assets/images/1c7ddde1d5773520ea0be9ea4efc9c1f.jpg",
+        "heading": "NeonCity",
+        "text": "Concept for a small neon colour based city. Unfortunaly the project was canceled due to the group breaking apart."
+    },
+    {
+        "icon": "../src/assets/images/8e7ba4d2cd85c6a7a38bb8fdb148e582.jpg",
+        "heading": "Volume Material",
+        "text":"Material made with blender"
+    },
+    {
+        "icon": "../src/assets/images/cc8ba81a8d1a4da631d59f532bdbfb8b.jpg",
+        "heading": "Volume Material",
+        "text":"Material made with blender"
+    },
+    {
+        "icon": "../src/assets/images/46d15f6e088a474a2d7837b0abd0d1cf.jpg",
+        "heading": "Mars City",
+        "text":"Rendered in Blender"
+    }
+]

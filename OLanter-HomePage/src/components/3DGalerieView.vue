@@ -23,7 +23,7 @@ import ImageItem from "./ImageItem.vue"
 </template>
 
 <script>
-import ImageList from "../assets/imageList.json";
+import ImageList from "../assets/3DModelList.json";
 export default {
   name: "Art",
   components: {},
